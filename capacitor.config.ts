@@ -1,8 +1,10 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
+const appName: string = 'Citium';
+
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
-  appName: 'citium',
+  appId: 'com.hiddenape.citium',
+  appName: appName,
   webDir: 'dist',
   server: {
     androidScheme: 'https'
